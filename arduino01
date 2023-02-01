@@ -1,0 +1,12 @@
+/* Programa que prende y apaga un led en intervalos de 1000 y 300 milisegundos */
+
+void setup() {
+  pinMode(2, OUTPUT); // Establece el pin 2 en modo salida
+}
+
+void loop() {
+  digitalWrite(2, HIGH); // Señal 1 en pin 2
+  delay(1000); // Retraso de 1000 milisegundos
+  digitalWrite(2, LOW); // Señal 0 en pin 2
+  delay(300); // Retraso de 300 milisegundos
+}
